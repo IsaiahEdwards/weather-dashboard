@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+    <!--Banner-->
+    <div class="container">
+        <div class="row" >
+            <div class= "col-12" id="banner">
+            <h1> WEATHER FORECAST </h1>
+
+            </div>
+        </div>
+    </div>
+    <!--search for city container-->
+    <div class="container">
+        <div class="row" >
+            <div class="col-3" id="searcHolder">
+                <form id="city-form">
+                <label for="city-input">Search for a city</label>
+                <input type="text" id="city-input"><br>
+        
+  
+                <!--submit button for ciy container-->
+                <input id="find-city" type="submit" value="City Search">
+                </form>
+                
+                <ul class="list-group list-group-flush" id="listHolder">
+                    
+                  </ul>
+                </div>
+
+                <!--TODAY FORECAST-->
+            <div class="col-8" id="todayForecast">
+                <h2 id= "todayH2"> TODAY </h2>
+                <p id="cityToday"></p>
+                <p id="tempHigh"></p>
+                <p id="tempLow"></p>
+                <p id="humdityToday"></p>
+                <p id="windSpeedToday"></p>
+               
+
+                <!--5 DAY FORECAST-->
+                <div class= "row">
+                    <div class = "col-12" id="weeklyForecast">
+                        <h3 id="weeklyH2"> 5 DAY FORECAST</h3>
+                    
+                        <div class="b1">
+                            <h3>Tomorrow</h3>
+                            <p id="tempHigh1"></p>
+                            <p id="tempLow1"></p>
+                            <p id="humdityToday1"></p>
+                            <p id="windSpeedToday1"></p>
+                        </div>
+                        <div class="b2">
+                            <h3>Day+2</h3>
+                            <p id="tempHigh2"></p>
+                            <p id="tempLow2"></p>
+                            <p id="humdityToday2"></p>
+                            <p id="windSpeedToday2"></p>
+                        </div>
+                        <div class="b3">
+                            <h3>Day+3</h3>
+                            <p id="tempHigh3"></p>
+                            <p id="tempLow3"></p>
+                            <p id="humdityToday3"></p>
+                            <p id="windSpeedToday3"></p>
+                        </div>
+                        <div class="b4">
+                            <h3>Day+4</h3>
+                            <p id="tempHigh4"></p>
+                            <p id="tempLow4"></p>
+                            <p id="humdityToday4"></p>
+                            <p id="windSpeedToday4"></p>
+                        </div>    
+                        <div class="b5">
+                            <h3>Day+5</h3>
+                            <p id="tempHigh5"></p>
+                            <p id="tempLow5"></p>
+                            <p id="humdityToday5"></p>
+                            <p id="windSpeedToday5"></p>
+                        </div>           
+                    
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container">
+        
+    </div>
+    
+    
+      <div id="forecast">
+      </div>
+      
+      
+  
+
+
+
+
+    
+    
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
