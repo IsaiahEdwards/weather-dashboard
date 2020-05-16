@@ -27,7 +27,7 @@ var i = 0
 
 
     // ajax info
-    var queryURL = "http://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=imperial&cnt=6" + "&appid=166a433c57516f51dfab1f7edaed8413"
+    var queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=imperial&cnt=6" + "&appid=166a433c57516f51dfab1f7edaed8413"
     
     $.ajax({
       url: queryURL,
@@ -79,7 +79,7 @@ var i = 0
   
   
       // ajax info
-      var queryURL = "http://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=imperial&cnt=6" + "&appid=166a433c57516f51dfab1f7edaed8413"
+      var queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=imperial&cnt=6" + "&appid=166a433c57516f51dfab1f7edaed8413"
       
       $.ajax({
         url: queryURL,
